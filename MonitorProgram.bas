@@ -448,7 +448,7 @@ Sub MP_dump()
             GoodToRead=1
          End if
       Else
-         Print Chr(34);"dump ";InputElements(2);Chr(34);" doesn't mean anything to Embedded Debugger."
+         Print Chr(34);"dump ";InputElements(2);Chr(34);" doesn't mean anything to Monitor Program."
       End If
    Elseif InputtedElements>2 Then
       TmpString=lcase(InputElements(2))
